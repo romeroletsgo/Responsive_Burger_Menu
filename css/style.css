@@ -1,0 +1,29 @@
+/* Обнуление */
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*------------------------------------ */
+
+.wrapper {}
+
+.header {}
+
+.content {}
+
+.container {}
+
+.content__text {}
